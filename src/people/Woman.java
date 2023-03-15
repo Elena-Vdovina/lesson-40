@@ -14,4 +14,9 @@ public class Woman extends Human {
   public String toString() {
     return String.format("Женщина по имени %s", getName());
   }
+
+  @Override
+  public void hallo() {
+    System.out.println("Я родилась!");
+  }
 }
