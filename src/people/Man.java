@@ -4,4 +4,8 @@ package people;
 // Попытка вывести их на экран должна приводить к выводу строки "Мужчина по имени ..."
 public class Man extends Human {
 
+  public Man(String name){
+    super(name);
+  }
+
 }
