@@ -19,6 +19,11 @@ public class Human {
     this.name = name;
   }
 
+  @Override
+  public String toString(){
+    return String.format("Человек по имени %s%n", name);
+  }
+
   public String getName() {
     return name;
   }
