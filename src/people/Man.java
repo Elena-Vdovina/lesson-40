@@ -8,4 +8,8 @@ public class Man extends Human {
     super(name);
   }
 
+  @Override
+  public String toString() {
+    return String.format("Мужчина по имени %s", getName());
+  }
 }
