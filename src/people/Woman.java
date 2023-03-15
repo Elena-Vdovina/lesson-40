@@ -10,4 +10,8 @@ public class Woman extends Human {
     super(name);
   }
 
+  @Override
+  public String toString() {
+    return String.format("Женщина по имени %s", getName());
+  }
 }
