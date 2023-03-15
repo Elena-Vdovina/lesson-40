@@ -5,4 +5,9 @@ package people;
 // или "Женщина по имени ..."
 // Метод "приветствие" класса "Женщина" должен выводить строку: "Я родилась!"
 public class Woman extends Human {
+
+  public Woman(String name) {
+    super(name);
+  }
+
 }
